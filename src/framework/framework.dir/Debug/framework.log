@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/framework/CMakeLists.txt
+  ObjectLifeTime.cpp
+  EventProcessor.cpp
+  framework.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\framework\Debug\framework.lib

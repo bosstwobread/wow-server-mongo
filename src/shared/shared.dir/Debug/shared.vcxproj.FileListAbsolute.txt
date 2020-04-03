@@ -1,0 +1,2 @@
+C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\Debug\shared.pdb
+C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\shared.dir\Debug\shared.pdb

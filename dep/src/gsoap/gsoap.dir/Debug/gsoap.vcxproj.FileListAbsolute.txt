@@ -1,0 +1,2 @@
+C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\gsoap\Debug\gsoap.pdb
+C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\gsoap\gsoap.dir\Debug\gsoap.pdb

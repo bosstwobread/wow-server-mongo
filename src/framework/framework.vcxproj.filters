@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Policies\ObjectLifeTime.cpp">
+      <Filter>Policies</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\EventProcessor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Dynamic\FactoryHolder.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Dynamic\ObjectRegistry.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\Grid.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\GridLoader.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\GridReference.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\GridRefManager.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\NGrid.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\TypeContainer.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\TypeContainerFunctions.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\GameSystem\TypeContainerVisitor.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Platform\CompilerDefs.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Platform\Define.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Policies\CreationPolicy.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Policies\ObjectLifeTime.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Policies\Singleton.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Policies\ThreadingModel.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\ByteConverter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\Callback.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\EventProcessor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\LinkedList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\TypeList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\LinkedReference\Reference.h">
+      <Filter>Utilities\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\Utilities\LinkedReference\RefManager.h">
+      <Filter>Utilities\LinkedReference</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\framework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{B921F438-5949-35FF-B203-6DE4B2EE09E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{DC26B0FB-AAA8-3BAC-8AFA-31E0D296D8FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{8D1C1BD3-9FB9-3788-ADFD-350AE34DAC8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Policies">
+      <UniqueIdentifier>{F34C0FD2-119B-3DE7-A416-7134E19E6B64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{BDC98EE5-F855-38A7-A389-F277E4EA528E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\LinkedReference">
+      <UniqueIdentifier>{722BCA21-63C7-3A40-ACB6-5D0A656F9127}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

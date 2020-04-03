@@ -1,0 +1,35 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt
+  cmake_pch.cxx
+  Unknown compiler version - please run the configure tests and report the results
+  AuthCrypt.cpp
+  BigNumber.cpp
+  HMACSHA1.cpp
+  Sha1.cpp
+  base32.cpp
+  Config.cpp
+  Database.cpp
+  DatabaseMysql.cpp
+  DatabasePostgre.cpp
+  Field.cpp
+  QueryResultMysql.cpp
+  QueryResultPostgre.cpp
+  SqlDelayThread.cpp
+  SqlOperations.cpp
+  SqlPreparedStatement.cpp
+  SQLStorage.cpp
+  DBCFileLoader.cpp
+  Log.cpp
+  ByteBuffer.cpp
+  ProgressBar.cpp
+  Util.cpp
+  SRP6.cpp
+  PacketBuffer.cpp
+  Socket.cpp
+  Common.cpp
+  Threading.cpp
+  ServiceWin32.cpp
+  WheatyExceptionReport.cpp
+  shared.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\Release\shared.lib
+  C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_Release\libcrypto-1_1-x64.dll
+  C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_Release\libmySQL.dll
+  已复制         2 个文件。

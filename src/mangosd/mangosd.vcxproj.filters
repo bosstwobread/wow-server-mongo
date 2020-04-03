@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CliRunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\MaNGOSsoap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\RASocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\WorldRunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CliRunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\MaNGOSsoap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\RASocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\WorldRunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapStub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{11B3A509-108E-39EF-A70B-426E65A32DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE8E426E-1E54-305F-A10B-2103BD6208FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

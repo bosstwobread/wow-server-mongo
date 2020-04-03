@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\AuthSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\RealmList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\AuthCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\AuthSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\RealmList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\realmd\realmd.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{11B3A509-108E-39EF-A70B-426E65A32DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE8E426E-1E54-305F-A10B-2103BD6208FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

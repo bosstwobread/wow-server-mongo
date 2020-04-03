@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\AABox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Any.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Capsule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CollisionDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CoordinateFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\FileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\LineSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Matrix3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\PhysicsFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\ReferenceCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\RegistryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\TextInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\TextOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\UprightFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\debugAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\fileutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\g3dfnmatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\g3dmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\prompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\stringutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\uint128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AABox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Any.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AnyVal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AreaMemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BoundsTrait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Box2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BumpMapPreprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Capsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\CollisionDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color1uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color3uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color4uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Cone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ConvexPolyhedron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\CoordinateFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\EqualsTrait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\FileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3DAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3DGameUnits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GUniqueID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\HashTrait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image1uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image3uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image4uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ImageFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Intersect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\KDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\LineSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Map2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MeshAlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\NetAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\NetworkDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ParseError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PhysicsFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PhysicsFrameSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PointHashGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PointKDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PositionTrait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PrecomputedRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Quat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Rect2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ReferenceCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\RegistryUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\SmallArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Stopwatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\TextInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\TextOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ThreadSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\UprightFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector2int16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3int16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3int32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector4int8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\WeakCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Welder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\WrapMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\XML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debugAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debugPrintf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\enumclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\fileutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\g3dfnmatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\g3dmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\netheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\networkHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\prompt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\serialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\splinefunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\stringutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\uint128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\vectorMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{11B3A509-108E-39EF-A70B-426E65A32DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE8E426E-1E54-305F-A10B-2103BD6208FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/CMakeLists.txt
+  CliRunnable.cpp
+  MaNGOSsoap.cpp
+  Main.cpp
+  Master.cpp
+  RASocket.cpp
+  WorldRunnable.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  soapC.cpp
+  soapServer.cpp
+  mangosd.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\x64_Release\mangosd.exe

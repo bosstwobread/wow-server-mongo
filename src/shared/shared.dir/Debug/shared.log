@@ -1,0 +1,52 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt
+  cmake_pch.cxx
+  Unknown compiler version - please run the configure tests and report the results
+C:\local\boost_1_64_0\boost/asio/buffer.hpp(531,5): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\local\boost_1_64_0\boost/asio/buffer.hpp(530): message : 在编译 类 模板 成员函数“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”时
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(1610): message : 查看对正在编译的函数 模板 实例化“void boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>::operator ()(void)”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\local\boost_1_64_0\boost/asio/buffer.hpp(1119): message : 查看对正在编译的 类 模板 实例化“boost::asio::detail::buffer_debug_check<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>”的引用
+          with
+          [
+              _Ty=boost::asio::detail::buffered_stream_storage::byte_type
+          ]
+C:\local\boost_1_64_0\boost/asio/detail/buffered_stream_storage.hpp(58): message : 查看对正在编译的函数 模板 实例化“boost::asio::mutable_buffers_1 boost::asio::buffer<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>>(std::vector<boost::asio::detail::buffered_stream_storage::byte_type,std::allocator<boost::asio::detail::buffered_stream_storage::byte_type>> &)”的引用
+  AuthCrypt.cpp
+  BigNumber.cpp
+  HMACSHA1.cpp
+  Sha1.cpp
+  base32.cpp
+  Config.cpp
+  Database.cpp
+  DatabaseMysql.cpp
+  DatabasePostgre.cpp
+  Field.cpp
+  QueryResultMysql.cpp
+  QueryResultPostgre.cpp
+  SqlDelayThread.cpp
+  SqlOperations.cpp
+  SqlPreparedStatement.cpp
+  SQLStorage.cpp
+  DBCFileLoader.cpp
+  Log.cpp
+  ByteBuffer.cpp
+  ProgressBar.cpp
+  Util.cpp
+  SRP6.cpp
+  PacketBuffer.cpp
+  Socket.cpp
+  Common.cpp
+  Threading.cpp
+  ServiceWin32.cpp
+  WheatyExceptionReport.cpp
+  shared.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\Debug\shared.lib
+  C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_Debug\libcrypto-1_1-x64.dll
+  C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_Debug\libmySQL.dll
+  已复制         2 个文件。

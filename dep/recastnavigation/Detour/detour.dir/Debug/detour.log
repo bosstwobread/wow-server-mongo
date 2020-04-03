@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/recastnavigation/Detour/CMakeLists.txt
+  DetourAlloc.cpp
+  DetourAssert.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  detour.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\recastnavigation\Detour\Debug\detour.lib

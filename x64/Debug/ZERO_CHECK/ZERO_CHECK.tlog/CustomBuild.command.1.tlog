@@ -1,0 +1,10 @@
+^C:\WOW\WOW-0330\MANGOS-TBC-MASTER\BIN\BUILDDIR\CMAKEFILES\21B7373B5D0D716BEE44A066A1DFC083\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/CMaNGOS_TBC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

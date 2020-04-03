@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\shared.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\AuthCrypt.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\BigNumber.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\HMACSHA1.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\Sha1.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\base32.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseMysql.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabasePostgre.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Field.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultMysql.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultPostgre.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlDelayThread.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlOperations.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlPreparedStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorage.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCFileLoader.cpp">
+      <Filter>Database\DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ByteBuffer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProgressBar.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\SRP6\SRP6.cpp">
+      <Filter>SRP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\PacketBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\AuthCrypt.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\BigNumber.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\HMACSHA1.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\md5.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\Sha1.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\base32.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseEnv.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseImpl.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseMysql.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabasePostgre.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\PGSQLDelayThread.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResult.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultMysql.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultPostgre.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlDelayThread.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlOperations.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlPreparedStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorage.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorageImpl.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCFileLoader.h">
+      <Filter>Database\DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCStore.h">
+      <Filter>Database\DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ByteBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Errors.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProgressBar.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Timer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WorldPacket.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProducerConsumerQueue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\SRP6\SRP6.h">
+      <Filter>SRP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Listener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\NetworkThread.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\PacketBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Socket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\revision_sql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\revision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Threading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\shared.dir\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{733CEBC7-A512-3F9E-BFA2-F16DD4AC82BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FD8447C0-D5E3-36DE-844E-16DA24EDECA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{492D4BE6-BC88-33DE-9EAA-64E5042C5699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\DataStores">
+      <UniqueIdentifier>{41D5E838-D61F-36DB-9D37-75C468325B59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{11B3A509-108E-39EF-A70B-426E65A32DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{99C4C955-B60E-3871-9429-2289CA2606F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{0708AD44-968E-3F24-B06A-5280C835904F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRP">
+      <UniqueIdentifier>{5BEF41D5-E08C-3AEE-B8D3-67B17DEC2B91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE8E426E-1E54-305F-A10B-2103BD6208FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{1A232DC4-B9A5-36ED-865A-252653DA6BDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

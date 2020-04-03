@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21DD3DAC-1152-3EAC-9489-8320D3FBA52B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Shared</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+copy "C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_$(Configuration)\*.dll" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DO_MYSQL;NDEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DO_MYSQL;NDEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+copy "C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_$(Configuration)\*.dll" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+copy "C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_$(Configuration)\*.dll" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+copy "C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\x64_$(Configuration)\*.dll" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\shared.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\AuthCrypt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\AuthCrypt.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\BigNumber.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\BigNumber.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\HMACSHA1.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\HMACSHA1.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\md5.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\Sha1.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\Sha1.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\base32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Auth\base32.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Config\Config.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Config\Config.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Database.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Database.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseEnv.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseImpl.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseMysql.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabaseMysql.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabasePostgre.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DatabasePostgre.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Field.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\Field.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\PGSQLDelayThread.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResult.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultMysql.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultMysql.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultPostgre.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\QueryResultPostgre.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlDelayThread.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlDelayThread.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlOperations.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlOperations.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlPreparedStatement.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SqlPreparedStatement.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorage.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorage.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\SQLStorageImpl.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCFileLoader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCFileLoader.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Database\DBCStore.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Log.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Log.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ByteBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ByteBuffer.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Errors.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProgressBar.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProgressBar.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Timer.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Util.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Util.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WorldPacket.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ProducerConsumerQueue.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\SRP6\SRP6.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\SRP6\SRP6.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\PacketBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Socket.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Listener.hpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\NetworkThread.hpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\PacketBuffer.hpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Network\Socket.hpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Common.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Common.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\revision_sql.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\revision.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Threading.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\Threading.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ServiceWin32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\ServiceWin32.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WheatyExceptionReport.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/CMakeFiles/shared.dir/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/shared/shared.dir/$(Configuration)/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\shared\WheatyExceptionReport.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\CMakeFiles\shared.dir\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\ZERO_CHECK.vcxproj">
+      <Project>{7CE95A31-EFFD-3303-A522-ACFD7C18ABBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\framework\framework.vcxproj">
+      <Project>{567CF3C2-7791-3E94-A02C-ABCDE78A2792}</Project>
+      <Name>framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

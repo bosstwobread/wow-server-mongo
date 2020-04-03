@@ -1,0 +1,2673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\game\CMakeFiles\game.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\CreatureAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\CritterAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GameObjectAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GuardAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GuardianAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\NullCreatureAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\PetAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\TotemAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\UnitAI.cpp">
+      <Filter>AI\BaseAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\CreatureAIRegistry.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\CreatureAISelector.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\EventAI\CreatureEventAI.cpp">
+      <Filter>AI\EventAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\EventAI\CreatureEventAIMgr.cpp">
+      <Filter>AI\EventAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\PlayerAI\CharmAI.cpp">
+      <Filter>AI\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\PlayerAI\PlayerAI.cpp">
+      <Filter>AI\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\ScriptDevAIMgr.cpp">
+      <Filter>AI\ScriptDevAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\CombatAI.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\TimerAI.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\escort_ai.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\follower_ai.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\guard_ai.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\pet_ai.cpp">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_creature.cpp">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_grid_searchers.cpp">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_instance.cpp">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\battlegrounds\battlegrounds.cpp">
+      <Filter>AI\ScriptDevAI\scripts\battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\alterac_mountains.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\arathi_highlands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\blackrock_depths.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\boss_ambassador_flamelash.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\boss_coren_direbrew.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\boss_emperor_dagran_thaurissan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\boss_general_angerforge.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\boss_high_interrogator_gerstahn.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\instance_blackrock_depths.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire\boss_gyth.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire\boss_overlord_wyrmthalak.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire\boss_pyroguard_emberseer.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire\instance_blackrock_spire.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\blackwing_lair.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_broodlord_lashlayer.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_chromaggus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_ebonroc.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_firemaw.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_flamegor.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_nefarian.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_razorgore.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_vaelastrasz.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\boss_victor_nefarius.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blasted_lands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\burning_steppes.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines\boss_mr_smite.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines\deadmines.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines\instance_deadmines.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\dun_morogh.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\eastern_plaguelands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\elwynn_forest.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\eversong_woods.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\ghostlands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan\boss_thermaplugg.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan\gnomeregan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan\instance_gnomeregan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\hinterlands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\ironforge.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\isle_of_queldanas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_curator.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_maiden_of_virtue.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_midnight.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_moroes.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_netherspite.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_nightbane.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_prince_malchezaar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_shade_of_aran.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\boss_terestian_illhoof.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\bosses_opera.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\chess_event.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\karazhan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\karazhanScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\loch_modan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\boss_felblood_kaelthas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\boss_priestess_delrissa.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\boss_selin_fireheart.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\boss_vexallus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\instance_magisters_terrace.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\magisters_terrace.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_baron_geddon.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_garr.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_gehennas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_golemagg.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_lucifron.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_magmadar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_majordomo_executus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_ragnaros.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_shazzrah.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\boss_sulfuron_harbinger.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\molten_core.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\molten_coreScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_anubrekhan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_faerlina.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_four_horsemen.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_gluth.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_gothik.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_grobbulus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_heigan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_kelthuzad.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_loatheb.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_maexxna.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_noth.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_patchwerk.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_razuvious.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_sapphiron.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\boss_thaddius.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\instance_naxxramas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\redridge_mountains.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\boss_arcanist_doan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\boss_headless_horseman.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\boss_herod.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\boss_mograine_and_whitemane.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\instance_scarlet_monastery.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance\boss_darkmaster_gandling.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance\boss_jandice_barov.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance\instance_scholomance.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance\scholomance.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\searing_gorge.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep\instance_shadowfang_keep.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep\shadowfang_keep.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\silvermoon_city.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\silverpine_forest.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stormwind_city.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stranglethorn_vale.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\boss_baroness_anastari.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\boss_cannon_master_willey.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\boss_dathrohan_balnazzar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\boss_maleki_the_pallid.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\boss_order_of_silver_hand.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\instance_stratholme.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\stratholme.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple\instance_sunken_temple.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple\sunken_temple.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_brutallus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_eredar_twins.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_felmyst.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_kalecgos.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_kiljaeden.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\boss_muru.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\instance_sunwell_plateau.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\swamp_of_sorrows.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\tirisfal_glades.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman\boss_archaedas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman\instance_uldaman.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman\uldaman.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\undercity.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\western_plaguelands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\westfall.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\wetlands.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\world_eastern_kingdoms.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_akilzon.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_halazzi.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_janalai.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_malacrass.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_nalorakk.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\boss_zuljin.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\zulaman.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\zulamanScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_arlokk.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_hakkar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_hazzarah.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_jeklik.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_jindo.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_mandokir.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_marli.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_renataki.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_thekal.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\boss_venoxis.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\instance_zulgurub.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\zulgurub.cpp">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\examples\example_creature.cpp">
+      <Filter>AI\ScriptDevAI\scripts\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\examples\example_escort.cpp">
+      <Filter>AI\ScriptDevAI\scripts\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\examples\example_gossip_codebox.cpp">
+      <Filter>AI\ScriptDevAI\scripts\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\examples\example_misc.cpp">
+      <Filter>AI\ScriptDevAI\scripts\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ashenvale.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\azshara.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\azuremyst_isle.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\blackfathom_deeps\instance_blackfathom_deeps.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\blackfathom_deeps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\bloodmyst_isle.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\boss_azuregos.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\boss_aeonus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\boss_chrono_lord_deja.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\boss_temporus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\dark_portal.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\instance_dark_portal.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\boss_anetheron.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\boss_archimonde.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\boss_azgalor.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\boss_kazrogal.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\boss_rage_winterchill.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\hyjal.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\hyjalAI.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\hyjalScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad\instance_old_hillsbrad.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad\old_hillsbrad.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\darkshore.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\desolace.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\dire_maul\dire_maul.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\dire_maul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\dire_maul\instance_dire_maul.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\dire_maul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\durotar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\dustwallow_marsh.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\felwood.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\feralas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\maraudon\boss_noxxion.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\maraudon\instance_maraudon.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\moonglade.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\mulgore.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\onyxias_lair\boss_onyxia.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\onyxias_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\onyxias_lair\instance_onyxias_lair.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\onyxias_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\orgrimmar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_downs\instance_razorfen_downs.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_downs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_downs\razorfen_downs.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_downs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul\instance_razorfen_kraul.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul\razorfen_kraul.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_ayamiss.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_buru.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_kurinnaxx.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_moam.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_ossirian.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\boss_rajaxx.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\ruins_of_ahnqiraj.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\ruins_of_ahnqirajScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\silithus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\stonetalon_mountains.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\tanaris.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\teldrassil.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_bug_trio.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_cthun.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_fankriss.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_huhuran.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_ouro.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_sartura.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_skeram.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_twinemperors.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\boss_viscidus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\mob_anubisath_sentinel.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\temple_of_ahnqiraj.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\the_barrens.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\thousand_needles.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\thunder_bluff.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ungoro_crater.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\wailing_caverns\instance_wailing_caverns.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\wailing_caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\wailing_caverns\wailing_caverns.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\wailing_caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\winterspring.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\world_kalimdor.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\zulfarrak\boss_zumrah.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\zulfarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\zulfarrak\instance_zulfarrak.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\zulfarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\zulfarrak\zulfarrak.cpp">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\zulfarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\auchenai_crypts\boss_exarch_maladaar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\auchenai_crypts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\auchenai_crypts\boss_shirrak.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\auchenai_crypts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs\boss_nexusprince_shaffar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs\boss_pandemonius.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs\boss_yor.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs\mana_tombs.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls\boss_anzu.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls\boss_darkweaver_syth.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls\boss_talon_king_ikiss.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls\sethekk_halls.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\boss_ambassador_hellmaw.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\boss_blackheart_the_inciter.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\boss_grandmaster_vorpil.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\boss_murmur.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\instance_shadow_labyrinth.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\black_temple.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\black_templeScripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_bloodboil.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_illidan.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_mother_shahraz.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_reliquary_of_souls.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_shade_of_akama.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_supremus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_teron_gorefiend.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\boss_warlord_najentus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\illidari_council.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\blades_edge_mountains.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\boss_doomlord_kazzak.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\boss_doomwalker.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\boss_terokk.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_fathomlord_karathress.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_hydross_the_unstable.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_lady_vashj.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_leotheras_the_blind.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_morogrim_tidewalker.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\boss_the_lurker_below.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\serpent_shrine.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens\boss_ahune.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens\instance_slave_pens.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault\boss_hydromancer_thespia.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault\boss_mekgineer_steamrigger.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault\boss_warlord_kalithresh.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault\instance_steam_vault.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog\boss_black_stalker.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog\boss_hungarfen.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog\boss_swamplord_muselek.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog\underbog.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\gruuls_lair\boss_gruul.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\gruuls_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\gruuls_lair\boss_high_king_maulgar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\gruuls_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\gruuls_lair\instance_gruuls_lair.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\gruuls_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace\boss_broggok.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace\boss_kelidan_the_breaker.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace\boss_the_maker.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace\instance_blood_furnace.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts\boss_nazan_and_vazruden.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts\boss_omor_the_unscarred.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts\boss_watchkeeper_gargolmar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts\instance_hellfire_ramparts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair\boss_magtheridon.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair\magtheridons_lair.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls\boss_nethekurse.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls\boss_warbringer_omrogg.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls\boss_warchief_kargath_bladefist.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls\instance_shattered_halls.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_peninsula.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\nagrand.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\netherstorm.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\shadowmoon_valley.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\shattrath_city.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\arcatraz.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\boss_dalliah.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\boss_harbinger_skyriss.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\boss_soccothrates.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\instance_arcatraz.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\botanica\boss_high_botanist_freywinn.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\botanica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\botanica\boss_laj.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\botanica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\botanica\boss_thorngrin_the_tender.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\botanica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\botanica\boss_warp_splinter.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\botanica</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\boss_alar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\boss_astromancer.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\boss_kaelthas.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\boss_void_reaver.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\the_eye.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar\boss_mechano_lord_capacitus.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar\boss_nethermancer_sepethrea.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar\boss_pathaleon_the_calculator.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar\instance_mechanar.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\terokkar_forest.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\world_outland.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\zangarmarsh.cpp">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\areatrigger_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\bosses_emerald_dragons.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\go_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\guards.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\item_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\mob_generic_creature.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\npc_professions.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\npcs_special.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\quest_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\spell_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\world_map_scripts.cpp">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\system\ScriptLoader.cpp">
+      <Filter>AI\ScriptDevAI\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\system\system.cpp">
+      <Filter>AI\ScriptDevAI\system</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Accounts\AccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Addons\AddonHandler.cpp">
+      <Filter>Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Arena\ArenaTeam.cpp">
+      <Filter>Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Arena\ArenaTeamHandler.cpp">
+      <Filter>Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AuctionHouse\AuctionHouseHandler.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AuctionHouseBot\AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGround.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAA.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAB.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAV.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundBE.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundEY.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundHandler.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundMgr.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundNA.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundRL.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundWS.cpp">
+      <Filter>BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Channel.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\ChannelHandler.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\ChannelMgr.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\ChatHandler.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Level0.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Level1.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Level2.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Level3.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\PetCommands.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\TicketCommands.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\debugcmds.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Cinematics\CinematicMgr.cpp">
+      <Filter>Cinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Cinematics\M2Stores.cpp">
+      <Filter>Cinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\CombatHandler.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\CombatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\DuelHandler.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\HostileRefManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\ThreatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\DBScripts\ScriptMgr.cpp">
+      <Filter>DBScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Bag.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Camera.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\CharacterHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Corpse.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Creature.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\CreatureLinkingMgr.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\DynamicObject.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\EntitiesMgr.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\GameObject.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\GossipDef.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Item.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ItemEnchantmentMgr.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ItemHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\MiscHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\NPCHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Object.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ObjectGuid.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ObjectVisibility.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Pet.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\PetHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\PetitionsHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\QueryHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Relations.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\SkillHandler.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\StatSystem.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Taxi.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\TemporarySpawn.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Totem.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Transports.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Unit.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\UpdateData.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\GMTickets\GMTicketHandler.cpp">
+      <Filter>GMTickets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\GMTickets\GMTicketMgr.cpp">
+      <Filter>GMTickets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\GameEvents\GameEventMgr.cpp">
+      <Filter>GameEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Globals\ObjectAccessor.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Globals\ObjectMgr.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\GridNotifiers.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\GridStates.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\Group.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\GroupHandler.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\GroupReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Guilds\Guild.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Guilds\GuildHandler.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Guilds\GuildMgr.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\LFG\LFGHandler.cpp">
+      <Filter>LFG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Loot\LootHandler.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Loot\LootMgr.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Mails\Mail.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Mails\MailHandler.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Mails\MassMailMgr.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\GridMap.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\InstanceData.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapManager.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapPersistentStateMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapUpdater.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\ObjectPosSelector.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\TaxiHandler.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\TransportSystem.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\FollowerReference.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\HomeMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\IdleMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MotionMaster.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MoveMap.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MovementHandler.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PathFinder.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PathMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PointMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\RandomMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\TargetedMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WaypointManager.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WaypointMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WrapperMovementGenerator.cpp">
+      <Filter>MotionGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSpline.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSplineInit.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\packet_builder.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\spline.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\util.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPEP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPHP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPNA.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPSI.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPTF.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPZM.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Pools\PoolManager.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Quests\QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Quests\QuestHandler.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Reputation\ReputationMgr.cpp">
+      <Filter>Reputation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\DBCStores.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\Opcodes.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\SQLStorages.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\WorldSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\WorldSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Skills\SkillDiscovery.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Skills\SkillExtraItems.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Social\SocialMgr.cpp">
+      <Filter>Social</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Druid.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Hunter.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Mage.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Paladin.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Priest.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Rogue.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Shaman.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Warlock.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\Scripting\ClassScripts\Warrior.cpp">
+      <Filter>Spells\Scripts\Scripting\ClassScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\SpellScript.cpp">
+      <Filter>Spells\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Spell.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellAuras.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellEffects.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellHandler.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellTargets.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\UnitAuraProcHandler.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\PlayerDump.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Trade\TradeHandler.cpp">
+      <Filter>Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\VoiceChat\VoiceChatHandler.cpp">
+      <Filter>VoiceChat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Weather\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\World\WorldState.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\BIH.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\DynamicTree.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\GameObjectModel.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\MapTree.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\ModelInstance.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\TileAssembler.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapFactory.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapManager2.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\WorldModel.cpp">
+      <Filter>vmap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\AIDefines.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\CreatureAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\CreatureAIImpl.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\CritterAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GameObjectAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GuardAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\GuardianAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\NullCreatureAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\PetAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\PossessedAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\TotemAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\BaseAI\UnitAI.h">
+      <Filter>AI\BaseAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\CreatureAIRegistry.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\CreatureAISelector.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\EventAI\CreatureEventAI.h">
+      <Filter>AI\EventAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\EventAI\CreatureEventAIMgr.h">
+      <Filter>AI\EventAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\PlayerAI\PlayerAI.h">
+      <Filter>AI\PlayerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\ScriptDevAIMgr.h">
+      <Filter>AI\ScriptDevAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\CombatAI.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\TimerAI.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\escort_ai.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\follower_ai.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\guard_ai.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\base\pet_ai.h">
+      <Filter>AI\ScriptDevAI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_common.h">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_creature.h">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_gossip.h">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_grid_searchers.h">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\include\sc_instance.h">
+      <Filter>AI\ScriptDevAI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths\blackrock_depths.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire\blackrock_spire.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair\blackwing_lair.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines\deadmines.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan\gnomeregan.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan\karazhan.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace\magisters_terrace.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core\molten_core.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas\naxxramas.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery\scarlet_monastery.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance\scholomance.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep\shadowfang_keep.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme\stratholme.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple\sunken_temple.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau\sunwell_plateau.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman\uldaman.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\world_eastern_kingdoms.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman\zulaman.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub\zulgurub.h">
+      <Filter>AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\blackfathom_deeps\blackfathom_deeps.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\blackfathom_deeps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal\dark_portal.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\hyjal.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal\hyjalAI.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad\old_hillsbrad.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\dire_maul\dire_maul.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\dire_maul</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\maraudon\maraudon.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\maraudon</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\onyxias_lair\onyxias_lair.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\onyxias_lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_downs\razorfen_downs.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_downs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul\razorfen_kraul.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj\ruins_of_ahnqiraj.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj\temple_of_ahnqiraj.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\wailing_caverns\wailing_caverns.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\wailing_caverns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\world_kalimdor.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\kalimdor\zulfarrak\zulfarrak.h">
+      <Filter>AI\ScriptDevAI\scripts\kalimdor\zulfarrak</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls\sethekk_halls.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth\shadow_labyrinth.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\black_temple\black_temple.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\black_temple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine\serpent_shrine.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens\slave_pens.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault\steam_vault.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog\underbog.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\gruuls_lair\gruuls_lair.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\gruuls_lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace\blood_furnace.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts\hellfire_ramparts.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair\magtheridons_lair.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls\shattered_halls.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz\arcatraz.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye\the_eye.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar\mechanar.h">
+      <Filter>AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\outland\world_outland.h">
+      <Filter>AI\ScriptDevAI\scripts\outland</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\scripts\world\world_map_scripts.h">
+      <Filter>AI\ScriptDevAI\scripts\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\system\ScriptLoader.h">
+      <Filter>AI\ScriptDevAI\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AI\ScriptDevAI\system\system.h">
+      <Filter>AI\ScriptDevAI\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Accounts\AccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Addons\AddonHandler.h">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Arena\ArenaTeam.h">
+      <Filter>Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>AuctionHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\AuctionHouseBot\AuctionHouseBot.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGround.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAA.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAB.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundAV.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundBE.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundEY.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundMgr.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundNA.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundRL.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\BattleGround\BattleGroundWS.h">
+      <Filter>BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Channel.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\ChannelMgr.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Cinematics\CinematicMgr.h">
+      <Filter>Cinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Cinematics\M2Stores.h">
+      <Filter>Cinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Cinematics\M2Structure.h">
+      <Filter>Cinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\CombatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\HostileRefManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Combat\ThreatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\DBScripts\ScriptMgr.h">
+      <Filter>DBScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Bag.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Camera.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Corpse.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Creature.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\CreatureLinkingMgr.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\DynamicObject.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\EntitiesMgr.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\GameObject.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\GossipDef.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Item.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ItemEnchantmentMgr.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ItemPrototype.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\NPCHandler.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Object.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ObjectGuid.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\ObjectVisibility.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Pet.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\PlayerDefines.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Taxi.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\TemporarySpawn.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Totem.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Transports.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\Unit.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\UnitEvents.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\UpdateData.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\UpdateFields.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Entities\UpdateMask.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\GMTickets\GMTicketMgr.h">
+      <Filter>GMTickets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\GameEvents\GameEventMgr.h">
+      <Filter>GameEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Globals\ObjectAccessor.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Globals\ObjectMgr.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Globals\SharedDefines.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\Cell.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\CellImpl.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\GridNotifiers.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\GridNotifiersImpl.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\GridStates.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Grids\ObjectGridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\Group.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\GroupRefManager.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Groups\GroupReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Guilds\Guild.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Guilds\GuildMgr.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Loot\LootMgr.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Mails\Mail.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Mails\MassMailMgr.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\GridDefines.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\GridMap.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\GridMapDefines.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\InstanceData.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapPersistentStateMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapRefManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapReference.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapUpdater.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\MapWorkers.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\ObjectPosSelector.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Maps\TransportSystem.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\FollowerRefManager.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\FollowerReference.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\HomeMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\IdleMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MotionMaster.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MoveMap.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MoveMapSharedDefines.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\MovementGeneratorImpl.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\Path.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PathFinder.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PathMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\PointMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\RandomMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\TargetedMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WaypointManager.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WaypointMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\MotionGenerators\WrapperMovementGenerator.h">
+      <Filter>MotionGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSpline.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSplineFlag.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSplineInit.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\MoveSplineInitArgs.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\packet_builder.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\spline.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\spline.impl.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Movement\typedefs.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPEP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPHP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPNA.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPSI.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPTF.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\OutdoorPvP\OutdoorPvPZM.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Pools\PoolManager.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Quests\QuestDef.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Reputation\ReputationMgr.h">
+      <Filter>Reputation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\DBCEnums.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\DBCStores.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\DBCStructure.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\DBCfmt.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\Opcodes.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\SQLStorages.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\WorldSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Server\WorldSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Skills\SkillDiscovery.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Skills\SkillExtraItems.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Social\SocialMgr.h">
+      <Filter>Social</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Scripts\SpellScript.h">
+      <Filter>Spells\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\Spell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellAuraDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellAuras.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellEffectDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellTargetDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Spells\SpellTargets.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\Formulas.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\Language.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Tools\PlayerDump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\Weather\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\World\WorldState.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\World\WorldStateDefines.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\BIH.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\BIHWrap.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\DynamicTree.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\GameObjectModel.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\IVMapManager.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\MapTree.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\ModelInstance.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\RegularGrid.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\TileAssembler.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapDefinitions.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapFactory.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapManager2.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\VMapTools.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\vmap\WorldModel.h">
+      <Filter>vmap</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\game\CMakeFiles\game.dir\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{B87F2E87-5830-3865-8909-DC650BCC5349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BaseAI">
+      <UniqueIdentifier>{113A952B-BF1A-3CE9-996D-B0F4983117ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\EventAI">
+      <UniqueIdentifier>{CB62DCCB-27D6-3F5B-83DE-883E82A832D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PlayerAI">
+      <UniqueIdentifier>{E3155606-4FB0-35FE-A265-5754EA95E3E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI">
+      <UniqueIdentifier>{5F0B9171-4B77-3CAB-A8BA-21CD6E0748D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\base">
+      <UniqueIdentifier>{64D8B9AC-3E99-365B-80D5-09C8933D95A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\include">
+      <UniqueIdentifier>{88F0B981-F418-3BAD-908B-748DC47A4C9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts">
+      <UniqueIdentifier>{A0C02D36-5EFD-3368-9CE4-10D934D128C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\battlegrounds">
+      <UniqueIdentifier>{38CEFF0E-6C1D-3306-AD5B-2D2177D443EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms">
+      <UniqueIdentifier>{0A164BC6-D5BD-324E-9BB2-C89FA5B79A02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_depths">
+      <UniqueIdentifier>{EABEF197-BD53-34D9-942F-9AFBED5DFAE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\blackrock_spire">
+      <UniqueIdentifier>{26D76E3D-01BD-32F3-B28E-D6874C801D44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\blackwing_lair">
+      <UniqueIdentifier>{98A47C7E-FB71-3993-888E-1C3DC43D5FA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\deadmines">
+      <UniqueIdentifier>{CABDA680-A156-3ABE-B308-8E808FB1EDFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\gnomeregan">
+      <UniqueIdentifier>{59A7844A-5AB5-3355-9282-FC9BD6CAFE6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\karazhan">
+      <UniqueIdentifier>{93ABC1B8-54A2-306E-98FE-41512B5AFAA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\magisters_terrace">
+      <UniqueIdentifier>{0BA8CE7C-8D3C-35F1-B01B-FA19DE22BEBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\molten_core">
+      <UniqueIdentifier>{A38671EE-D670-3F12-89AD-4C3F47D06F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\naxxramas">
+      <UniqueIdentifier>{159454D8-64B9-308F-AC86-8AE7640EAB45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\scarlet_monastery">
+      <UniqueIdentifier>{F3D49EED-7235-326F-B18B-57206B602A74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\scholomance">
+      <UniqueIdentifier>{D47C3FCD-5DB6-3FB9-9C9B-FF693B24F0B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\shadowfang_keep">
+      <UniqueIdentifier>{CD5AA9D2-157E-3E6E-931A-D766462F3160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\stratholme">
+      <UniqueIdentifier>{000BB1F8-B0D4-379E-A399-E82ADCC065ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\sunken_temple">
+      <UniqueIdentifier>{66DD6282-3334-38EA-B932-F0654D010F3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\sunwell_plateau">
+      <UniqueIdentifier>{79C9714C-BEBA-3428-B929-B1EFDB1506A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\uldaman">
+      <UniqueIdentifier>{77C14BE3-3285-333A-BB50-0FCFD12F9A41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\zulaman">
+      <UniqueIdentifier>{51C19EBD-19CE-349E-8E61-EDA93CE753B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\eastern_kingdoms\zulgurub">
+      <UniqueIdentifier>{6DEB145D-4940-3BB2-A5A9-DB76E04B8A85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\examples">
+      <UniqueIdentifier>{BCCC7091-5ED4-38F7-9108-3313B1AF34D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor">
+      <UniqueIdentifier>{6E8DFA44-E659-3D37-A87F-241940F5DC83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\blackfathom_deeps">
+      <UniqueIdentifier>{E6363FBC-AD9A-3A17-A7D9-35F17D9BF61B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\caverns_of_time">
+      <UniqueIdentifier>{2FABC47B-8A34-3090-B018-6FA43AC75CD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\dark_portal">
+      <UniqueIdentifier>{9EE283CD-AE39-3B97-8401-661AAB693DDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\hyjal">
+      <UniqueIdentifier>{C918E6A6-A01F-3DEE-9C35-1A703D10E29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\caverns_of_time\old_hillsbrad">
+      <UniqueIdentifier>{16D5CAFD-7F1C-3491-AE00-F16C7B32BEB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\dire_maul">
+      <UniqueIdentifier>{232BB8CB-DB6D-3561-8E63-59EBD9E85F8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\maraudon">
+      <UniqueIdentifier>{502AC87E-2CC9-3043-9947-39CF1B22A78F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\onyxias_lair">
+      <UniqueIdentifier>{21373428-EBF0-336E-B71B-AE789E2C2E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\razorfen_downs">
+      <UniqueIdentifier>{59D76F38-3121-3FF7-968E-841012552496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\razorfen_kraul">
+      <UniqueIdentifier>{742815CB-0835-3F19-BB1B-C9898004576A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\ruins_of_ahnqiraj">
+      <UniqueIdentifier>{CA4D5B4E-5E24-36E7-9A23-507F001899AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\temple_of_ahnqiraj">
+      <UniqueIdentifier>{4D25CC62-6B78-3CE1-9D34-FD12E8992F3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\wailing_caverns">
+      <UniqueIdentifier>{13D27B4C-E6EB-3734-9483-36D0E30C8DA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\kalimdor\zulfarrak">
+      <UniqueIdentifier>{711E9E7A-9262-35C6-A76D-163A58702714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland">
+      <UniqueIdentifier>{34BC8368-2E01-3C59-9384-7C27AB904591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\auchindoun">
+      <UniqueIdentifier>{CA65E739-CE9E-3616-A1B5-D6325BCDA4C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\auchindoun\auchenai_crypts">
+      <UniqueIdentifier>{C3FC508E-007A-3F63-9E26-0AA6AF59879A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\auchindoun\mana_tombs">
+      <UniqueIdentifier>{1B00CDF4-3775-309D-BFAD-366DA986D1C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\auchindoun\sethekk_halls">
+      <UniqueIdentifier>{D4C8F9B8-FD21-3746-9A0F-2914CBD80529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\auchindoun\shadow_labyrinth">
+      <UniqueIdentifier>{372BE75D-3C42-3FAB-B4CE-D1862593ED65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\black_temple">
+      <UniqueIdentifier>{5A09F016-A73F-3833-B254-9283178C305D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\coilfang_reservoir">
+      <UniqueIdentifier>{418F9789-B049-3DC1-9E67-BA835C2FFF41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\coilfang_reservoir\serpent_shrine">
+      <UniqueIdentifier>{30CA5216-96AD-3415-8A4F-8A1A414EE5DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\coilfang_reservoir\slave_pens">
+      <UniqueIdentifier>{BD083CD0-2125-3EC7-A02F-2EDC6FD4CCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\coilfang_reservoir\steam_vault">
+      <UniqueIdentifier>{941501A5-6358-358E-A2FF-82CB965F1561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\coilfang_reservoir\underbog">
+      <UniqueIdentifier>{7C45C0FB-C6F1-32B2-A85A-B12AFD6ACAD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\gruuls_lair">
+      <UniqueIdentifier>{516FE38F-8B33-38C1-B253-2DFBC0AC889F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\hellfire_citadel">
+      <UniqueIdentifier>{46A9FA1D-3B3D-357A-AAB8-CB5713881EA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\hellfire_citadel\blood_furnace">
+      <UniqueIdentifier>{13DB8379-D6E6-3965-8C48-B1C2C376FDB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\hellfire_citadel\hellfire_ramparts">
+      <UniqueIdentifier>{4C364CC2-4F08-3775-B88C-0B8677B0B16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\hellfire_citadel\magtheridons_lair">
+      <UniqueIdentifier>{A6197CC9-76EE-3065-9D0B-A42B1D7FE9FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\hellfire_citadel\shattered_halls">
+      <UniqueIdentifier>{D4AF616F-506D-3FA2-BBD2-52E4086649A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\tempest_keep">
+      <UniqueIdentifier>{2D073ACF-8A98-3DD8-86DF-C1C1256007D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\tempest_keep\arcatraz">
+      <UniqueIdentifier>{09AD714B-C9C1-3C53-8D91-1A58A06D1E17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\tempest_keep\botanica">
+      <UniqueIdentifier>{EB6A656F-D016-3EA8-9ED9-BF558913FB74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\tempest_keep\the_eye">
+      <UniqueIdentifier>{A8606B92-B834-309D-9D44-FD4F32E2D249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\outland\tempest_keep\the_mechanar">
+      <UniqueIdentifier>{FA5B908B-4107-3278-8F88-EEDA2B7C22B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\scripts\world">
+      <UniqueIdentifier>{00505949-E272-3447-A69F-615F17B0E9F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptDevAI\system">
+      <UniqueIdentifier>{27DBC40C-44FA-3640-B3D5-7DADD24D5A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accounts">
+      <UniqueIdentifier>{A3ABF23B-82C8-3DB7-8493-94C133747629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{837E64DF-60F2-3048-B901-B37EF33F0724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arena">
+      <UniqueIdentifier>{2FD2E05C-BCDC-3430-B73B-E4B34642E055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouse">
+      <UniqueIdentifier>{F0BFE577-09BA-31E4-A5DB-34707FF7A265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouseBot">
+      <UniqueIdentifier>{A00F0109-CFA6-3F14-80D5-FC66CB2A3829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleGround">
+      <UniqueIdentifier>{54A6BBC9-735C-36C1-8BC7-8E1C37C63FB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{47013A03-BDC6-391C-98AB-140803F4CD10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cinematics">
+      <UniqueIdentifier>{554C3C00-7221-3873-A084-4B4D544C4177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{B50EB61D-24A2-3DA0-80C6-958565424C10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBScripts">
+      <UniqueIdentifier>{64D7E9A1-EC55-3C57-ADA8-951256B15961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{4E9100CE-67FB-3257-8652-CA0185243896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GMTickets">
+      <UniqueIdentifier>{A11830FB-DC4F-302F-B924-2FFA27B98EC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvents">
+      <UniqueIdentifier>{380E901B-A792-3C8F-A80A-CAD76760B94F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{414DB0ED-4A07-3F46-A341-4C58568DB3B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids">
+      <UniqueIdentifier>{669B43AE-9EA9-3C43-9DFC-AAFED30B380B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Groups">
+      <UniqueIdentifier>{7F42F61A-E79E-3C16-941E-7C52F093A7A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guilds">
+      <UniqueIdentifier>{510F21E2-2A77-3BD6-8FEB-B20B9D0C4E9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LFG">
+      <UniqueIdentifier>{66DE2DEA-04F1-3862-AC1F-89F6EC6E0810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loot">
+      <UniqueIdentifier>{309F47A9-D4CD-3FFC-A6C4-78F95A9F8556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mails">
+      <UniqueIdentifier>{EF83B790-9D0A-3A1B-923B-959E74482F3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{F69A2FA9-A6D8-39D2-B815-A0801E4D10E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MotionGenerators">
+      <UniqueIdentifier>{9797528C-C0A7-327A-9C79-927C67368AAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{6BA2FD33-205F-373A-A438-37F3FA1C1909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutdoorPvP">
+      <UniqueIdentifier>{BC12027E-CB45-342C-9083-79F443F8081C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{DD551090-F74D-31B8-A9F4-02D0DC60C221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{0708AD44-968E-3F24-B06A-5280C835904F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quests">
+      <UniqueIdentifier>{3DA07805-D408-3FFD-B51F-6F49DA08D32A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reputation">
+      <UniqueIdentifier>{768147DD-C817-3B47-84E2-ED40E877B5C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{C1396289-4117-315A-AF15-BF8920373426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{46640A4A-4A42-3128-819B-BEC9ECED676E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social">
+      <UniqueIdentifier>{A7198E91-CD02-3BAD-822B-5F610C5A699D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE8E426E-1E54-305F-A10B-2103BD6208FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{8877B336-FE2B-350D-BBA4-89DE8CCE0D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Scripts">
+      <UniqueIdentifier>{74B9AB4C-8470-3628-BA8B-F9969A41DD18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Scripts\Scripting">
+      <UniqueIdentifier>{8C074AA3-B305-3642-AEE5-AD6251228BE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Scripts\Scripting\ClassScripts">
+      <UniqueIdentifier>{3C9252C8-2824-387E-99D1-870D384E1BA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{64E190FA-EAF6-3038-85D8-C29D18695F40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trade">
+      <UniqueIdentifier>{A789B83E-C6F2-348F-AE86-1EEF1CE81DA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VoiceChat">
+      <UniqueIdentifier>{9130AAF3-8CA0-3972-A04C-8D3EF7EFACB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{8D1D418C-80F7-38FB-883E-F04823D3D79D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{864A8F6F-E127-364A-8187-496A24BEBBB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmap">
+      <UniqueIdentifier>{0E07DEED-6EA2-3930-B014-82E1880AA7BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D2589DD-ABD4-3565-A4FC-533A543F65DB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>g3dlite</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlite.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlite.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlite.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlite.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/dep/g3dlite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/dep/g3dlite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/dep/g3dlite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/dep/g3dlite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\AABox.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Any.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryFormat.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryInput.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\BinaryOutput.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Box.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Capsule.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CollisionDetection.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\CoordinateFrame.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Crypto.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Cylinder.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\FileSystem.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Line.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\LineSegment.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Log.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Matrix3.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Matrix4.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\MemoryManager.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\PhysicsFrame.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Plane.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Quat.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Random.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Ray.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\ReferenceCount.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\RegistryUtil.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Sphere.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\System.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\TextInput.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\TextOutput.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Triangle.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\UprightFrame.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector2.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector3.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\Vector4.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\debugAssert.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\fileutils.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\format.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\g3dfnmatch.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\g3dmath.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\prompt.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\stringutils.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\uint128.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AABox.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Any.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AnyVal.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\AreaMemoryManager.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Array.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryFormat.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryInput.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BinaryOutput.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BoundsTrait.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Box.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Box2D.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\BumpMapPreprocess.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Capsule.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\CollisionDetection.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color1.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color1uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color3.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color3uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color4.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Color4uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Cone.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ConvexPolyhedron.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\CoordinateFrame.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Crypto.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Cylinder.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\EqualsTrait.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\FileSystem.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3D.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3DAll.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\G3DGameUnits.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GCamera.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GImage.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GLight.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GThread.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\GUniqueID.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\HashTrait.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image1.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image1uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image3.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image3uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image4.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Image4uint8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ImageFormat.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Intersect.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\KDTree.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Line.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\LineSegment.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Log.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Map2D.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix2.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix3.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Matrix4.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MemoryManager.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MeshAlg.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\MeshBuilder.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\NetAddress.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\NetworkDevice.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ParseError.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PhysicsFrame.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PhysicsFrameSpline.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Plane.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PointHashGrid.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PointKDTree.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Pointer.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PositionTrait.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\PrecomputedRandom.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Quat.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Queue.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Random.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Ray.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Rect2D.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ReferenceCount.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\RegistryUtil.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Set.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\SmallArray.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Sphere.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Spline.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Stopwatch.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\System.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Table.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\TextInput.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\TextOutput.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\ThreadSet.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Triangle.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\UprightFrame.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector2.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector2int16.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3int16.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector3int32.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector4.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Vector4int8.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\WeakCache.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\Welder.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\WrapMode.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\XML.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\constants.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debug.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debugAssert.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\debugPrintf.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\enumclass.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\fileutils.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\filter.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\format.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\g3dfnmatch.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\g3dmath.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\netheaders.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\networkHelpers.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\platform.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\prompt.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\serialize.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\splinefunc.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\stringutils.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\uint128.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\units.h" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\dep\g3dlite\G3D\vectorMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\ZERO_CHECK.vcxproj">
+      <Project>{7CE95A31-EFFD-3303-A522-ACFD7C18ABBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\zlib\zlib.vcxproj">
+      <Project>{A6401476-95BA-3BD1-8076-EC3E66560406}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

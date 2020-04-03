@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{368F8DA4-D31D-3640-B6F9-5750625BCF04}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>WorldServer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\x64_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mangosd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\x64_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mangosd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wow-server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\x64_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mangosd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\x64_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mangosd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/mangosd.conf.dist.in" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.conf.dist"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\Release\shared.lib;..\game\Release\game.lib;..\..\dep\src\gsoap\Release\gsoap.lib;..\shared\Release\shared.lib;..\framework\Release\framework.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_system-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_thread-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_regex-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-1_64.lib;..\..\..\..\dep\lib\x64_release\libcrypto.dll.lib;..\..\..\..\dep\lib\x64_release\libmySQL.lib;..\..\dep\g3dlite\Release\g3dlite.lib;..\..\dep\recastnavigation\Detour\Release\detour.lib;..\..\dep\src\zlib\Release\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/Release/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DO_MYSQL;NDEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DO_MYSQL;NDEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/mangosd.conf.dist.in" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.conf.dist"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\Debug\shared.lib;..\game\Debug\game.lib;..\..\dep\src\gsoap\Debug\gsoap.lib;..\shared\Debug\shared.lib;..\framework\Debug\framework.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_thread-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_regex-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-gd-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-gd-1_64.lib;..\..\..\..\dep\lib\x64_release\libcrypto.dll.lib;..\..\..\..\dep\lib\x64_release\libmySQL.lib;..\..\dep\g3dlite\Debug\g3dlite.lib;..\..\dep\recastnavigation\Detour\Debug\detour.lib;..\..\dep\src\zlib\Debug\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/Debug/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/mangosd.conf.dist.in" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.conf.dist"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\RelWithDebInfo\shared.lib;..\game\RelWithDebInfo\game.lib;..\..\dep\src\gsoap\RelWithDebInfo\gsoap.lib;..\shared\RelWithDebInfo\shared.lib;..\framework\RelWithDebInfo\framework.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_system-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_thread-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_regex-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-1_64.lib;..\..\..\..\dep\lib\x64_release\libcrypto.dll.lib;..\..\..\..\dep\lib\x64_release\libmySQL.lib;..\..\dep\g3dlite\RelWithDebInfo\g3dlite.lib;..\..\dep\recastnavigation\Detour\RelWithDebInfo\detour.lib;..\..\dep\src\zlib\RelWithDebInfo\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/RelWithDebInfo/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /bigobj /Zm500</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4996;4355;4244;4985;4267</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DO_MYSQL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\WOW\WOW-0330\mangos-tbc-master\src\shared;C:\local\boost_1_64_0;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include;C:\WOW\WOW-0330\mangos-tbc-master\src\game;C:\WOW\WOW-0330\mangos-tbc-master\dep\lib\include\mysql;C:\WOW\WOW-0330\mangos-tbc-master\src\framework;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\src\utf8cpp;C:\WOW\WOW-0330\mangos-tbc-master\dep\include\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/mangosd.conf.dist.in" "C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.conf.dist"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\MinSizeRel\shared.lib;..\game\MinSizeRel\game.lib;..\..\dep\src\gsoap\MinSizeRel\gsoap.lib;..\shared\MinSizeRel\shared.lib;..\framework\MinSizeRel\framework.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_system-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_thread-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_regex-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-1_64.lib;C:\local\boost_1_64_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-1_64.lib;..\..\..\..\dep\lib\x64_release\libcrypto.dll.lib;..\..\..\..\dep\lib\x64_release\libmySQL.lib;..\..\dep\g3dlite\MinSizeRel\g3dlite.lib;..\..\dep\recastnavigation\Detour\MinSizeRel\detour.lib;..\..\dep\src\zlib\MinSizeRel\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/MinSizeRel/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/WOW/WOW-0330/mangos-tbc-master/bin/x64_$(Configuration)/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/WOW/WOW-0330/mangos-tbc-master -BC:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir --check-stamp-file C:/WOW/WOW-0330/mangos-tbc-master/bin/BuildDir/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CliRunnable.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\CliRunnable.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\MaNGOSsoap.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\MaNGOSsoap.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Main.cpp" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Master.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\Master.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\RASocket.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\RASocket.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\WorldRunnable.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\WorldRunnable.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapC.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapH.h" />
+    <ClCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapServer.cpp" />
+    <ClInclude Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\soapStub.h" />
+    <ResourceCompile Include="C:\WOW\WOW-0330\mangos-tbc-master\src\mangosd\mangosd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\ZERO_CHECK.vcxproj">
+      <Project>{7CE95A31-EFFD-3303-A522-ACFD7C18ABBD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\recastnavigation\Detour\detour.vcxproj">
+      <Project>{2CBDC725-145E-3F99-B063-FE458779DFED}</Project>
+      <Name>detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\framework\framework.vcxproj">
+      <Project>{567CF3C2-7791-3E94-A02C-ABCDE78A2792}</Project>
+      <Name>framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\g3dlite\g3dlite.vcxproj">
+      <Project>{9D2589DD-ABD4-3565-A4FC-533A543F65DB}</Project>
+      <Name>g3dlite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\game\game.vcxproj">
+      <Project>{77B6FF78-A444-34C6-8175-34E78885B0DA}</Project>
+      <Name>game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\gsoap\gsoap.vcxproj">
+      <Project>{3464F567-F4C7-354F-B0CC-7D3CBF53C409}</Project>
+      <Name>gsoap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\src\shared\shared.vcxproj">
+      <Project>{21DD3DAC-1152-3EAC-9489-8320D3FBA52B}</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\zlib\zlib.vcxproj">
+      <Project>{A6401476-95BA-3BD1-8076-EC3E66560406}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

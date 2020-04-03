@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/WOW/WOW-0330/mangos-tbc-master/dep/src/gsoap/CMakeLists.txt
+  stdsoap2.cpp
+  gsoap.vcxproj -> C:\WOW\WOW-0330\mangos-tbc-master\bin\BuildDir\dep\src\gsoap\Debug\gsoap.lib
